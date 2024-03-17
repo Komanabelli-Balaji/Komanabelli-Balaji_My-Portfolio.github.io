@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: medium;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Glory", sans-serif;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+nav {
+    background-color: rgb(11, 11, 82);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul li {
+
+    list-style: none;
+    margin: 1.5rem 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.right ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.right ul li a:hover {
+    color: rgb(161, 198, 209);
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.left {
+    color: aliceblue;
+    font-size: 1.9rem;
+}
+
+.fsec {
+    padding: 10rem;
+    padding-bottom: 18rem;
+    background-color: rgb(201, 212, 218);
+}
+
+.fsec h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.fsec div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.ssec {
+    height: 20vh;
+}
+
+.ssec div img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: -15rem;
+    left: 55rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 45vh;
+    height: 55vh;
+    background-color: rgb(235, 228, 161);
+    margin: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    padding: 7.5vh;
+    box-shadow: 1rem 1rem 1rem 0.3rem rgb(216, 208, 131);
+    transition: all 0.2s ease-in 0s;
+}
+
+.box:hover{
+    width: 47vh;
+    height: 57vh;
+    border-radius: 3rem;
+    box-shadow: 1.2rem 1.2rem 1.2rem 0.3rem rgb(216, 208, 131);
+}
+
+.box h2 {
+    font-size: 2.5rem;
+    margin: 0rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.box p {
+    font-size: 2rem;
+}
+
+.box p a {
+    color: rgb(158, 121, 95);
+}
+
+#box-1 {
+    position: relative;
+    left: -20rem;
+}
+
+#box-2 {
+    position: relative;
+    left: 20rem;
+    top: -5rem;
+}
+
+#box-3 {
+    position: relative;
+    left: -20rem;
+    top: -10rem;
+}
+
+footer {
+    padding: 2rem;
+    background-color: black;
+    color: azure;
+}
+
+footer h1 {
+    margin: 3rem 8rem;
+    font-size: 2rem;
+}
+
+footer h1+div {
+    font-size: 1.5rem;
+    margin: 0rem 8rem;
+}
+
+footer div ul li {
+    margin: 1rem 8rem;
+    list-style: none;
+}
+
+footer div ul li a {
+    color: azure;
+    text-decoration: none;
+}
+
+footer div ul li a:hover {
+    color: beige;
+    font-size: 1.05rem;
+}
+
+.cpyr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+
+}

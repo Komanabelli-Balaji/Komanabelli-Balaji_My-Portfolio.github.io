@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: medium;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Glory", sans-serif;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+nav {
+    background-color: rgb(7, 7, 60);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul li {
+
+    list-style: none;
+    margin: 1.5rem 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.right ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.right ul li a:hover {
+    color: rgb(161, 198, 209);
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.left {
+    color: aliceblue;
+    font-size: 1.9rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    background-color: azure;
+}
+
+main h1 {
+    font-size: 5rem;
+    margin: 2rem 0rem;
+}
+
+.hp {
+    font-size: 2rem;
+}
+
+.bp {
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 12, 80);
+    color: aliceblue;
+    margin-top: 4rem;
+    padding-top: 2rem;
+}
+
+.box{
+    width: 30%;
+    height: 30vh;
+    margin: 1rem;
+    padding: 2rem 0.2rem;
+}
+
+.box h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.box p{
+    font-size: 1.5rem;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    padding: 0.5rem 2.5rem;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+}
+
+.btn:hover{
+    background-color: rgb(54, 48, 48);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 20vh;
+    color: rgb(9, 9, 10);
+}
+
+.details h2{
+    font-size: 2.5rem;
+    margin: 2rem 0rem;
+}
+
+.details p{
+    font-size: 1.5rem;
+    margin: 0rem 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 30rem;
+    padding: 0.8rem;
+    border: 0.1rem solid black;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    font-size: 15px;
+}
+
+footer {
+    padding: 2rem;
+    background-color: black;
+    color: azure;
+}
+
+footer h1 {
+    margin: 3rem 8rem;
+    font-size: 2rem;
+}
+
+footer h1+div {
+    font-size: 1.5rem;
+    margin: 0rem 8rem;
+}
+
+footer div ul li {
+    margin: 1rem 8rem;
+    list-style: none;
+}
+
+footer div ul li a {
+    color: azure;
+    text-decoration: none;
+}
+
+footer div ul li a:hover {
+    color: beige;
+    font-size: 1.05rem;
+}
+
+.cpyr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+
+}
